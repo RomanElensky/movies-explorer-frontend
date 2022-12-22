@@ -1,0 +1,13 @@
+.reg-button__link_active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  width: 76px;
+  height: 32px;
+  transition: opacity linear 0.3s;
+}
+
+.reg-button__link:hover {
+  opacity: 0.6;
+}

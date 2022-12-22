@@ -1,0 +1,26 @@
+.profile-button__link {
+  display: flex;
+  position: relative;
+  text-decoration: none;
+  align-items: center;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 16px;
+  color: #FFFFFF;
+  text-decoration: none;
+  background: #313131;
+  border-radius: 20px;
+  padding: 8px 20px;
+  transition: opacity linear 0.3s;
+}
+
+.profile-button__link:hover {
+  opacity: 0.6;
+}
+
+@media screen and (max-width: 768px) {
+  .profile-button__link:last-child {
+    margin: auto 0 90px;
+  }
+}

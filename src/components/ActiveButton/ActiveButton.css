@@ -1,0 +1,22 @@
+.movies-card__active-button {
+  background-color: #313131;
+  background-image: url(../../images/check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  width: 30px;
+  height: 30px;
+  padding: 0;
+  border: none;
+  border-radius: 36px;
+  cursor: pointer;
+  transition: 0.3s;
+}
+
+.movies-card__active-button:hover {
+  opacity: 0.6;
+}
+
+.movies-card__active-button_marked {
+  background-color: #3DDC84;
+  background-image: url(../../images/checkWite.svg);
+}

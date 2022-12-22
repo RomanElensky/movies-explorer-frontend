@@ -1,0 +1,30 @@
+.login {
+  display: flex;
+  flex-direction: column;
+  padding-top: 70px;
+  width: 396px;
+  margin: 0 auto;
+}
+
+.login__title {
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 24px;
+  line-height: 29px;
+  color: #FFFFFF;
+  margin: 40px 0;
+  padding: 0;
+}
+
+@media screen and (max-width: 475px) {
+  .login {
+    align-items: center;
+    width: calc(100% - 30px * 2);
+  }
+
+  .login__title {
+    margin-bottom: 80px;
+    margin-top: 50px;
+  }
+}

@@ -1,0 +1,142 @@
+.about {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding: 110px 0;
+}
+
+.about__info {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  gap: 40px;
+  margin: 70px 0 110px;
+  width: calc(100% - 70px * 2);
+}
+
+.about__subtitle {
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 20px;
+  line-height: 24.2px;
+  letter-spacing: -0.04em;
+  color: #FFFFFF;
+  margin: 0 0 26px 0;
+  padding: 0;
+}
+
+.about__text {
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 20px;
+  color: #FFFFFF;
+  margin: 0;
+  padding: 0;
+  max-width: 550px;
+}
+
+.about__graph {
+  display: grid;
+  grid-template-columns: 1fr 4fr;
+  width: calc(100% - 70px * 2);
+}
+
+.about__graph-week {
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 17px;
+  text-align: center;
+  color: #000000;
+  background-color: #2BE080;
+  text-align: center;
+  margin: 0;
+  padding: 9px 0;
+}
+
+.about__graph-week_front {
+  background-color: #303030;
+  color: #FFFFFF;
+}
+
+.about__graph-info {
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-style: normal;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 1.21;
+  text-align: center;
+  color: #A0A0A0;
+  margin: 14px 0 0;
+}
+
+@media screen and (max-width: 900px) {
+  .about {
+    padding: 90px 0;
+  }
+
+  .about__info {
+    width: calc(100% - 50px * 2);
+    gap: 30px;
+    margin: 70px 0 93px;
+  }
+
+  .about__subtitle {
+    margin: 0 0 22px 0;
+  }
+
+  .about__text {
+    font-size: 12px;
+    line-height: 18px;
+  }
+
+  .about__graph {
+    width: calc(100% - 50px * 2);
+  }
+
+  .about__graph-info {
+    margin: 14px 0 0;
+  }
+}
+
+@media screen and (max-width: 475px) {
+  .about {
+    padding: 70px 0;
+  }
+
+  .about__info {
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 56px;
+    margin: 60px 0 60px;
+    width: calc(100% - 18px * 2);
+  }
+
+  .about__subtitle {
+    margin: 0 0 16px 0;
+    font-size: 18px;
+    line-height: 22px;
+  }
+
+  .about__text {
+    font-size: 11px;
+    line-height: 16px;
+  }
+
+  .about__graph {
+    width: calc(100% - 18px * 2);
+  }
+
+  .about__graph-week {
+    font-size: 11px;
+    line-height: 13px;
+  }
+
+  .about__graph-info {
+    margin: 10px 0 0;
+  }
+}
