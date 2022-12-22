@@ -1,0 +1,22 @@
+.movies-card__mark-button {
+  background-image: url(../../images/check.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-color: #313131;
+  border-radius: 36px;
+  border: none;
+  padding: 0;
+  width: 30px;
+  height: 30px;
+  cursor: pointer;
+  transition: opacity linear 0.3s;
+}
+
+.movies-card__mark-button:hover {
+  opacity: 0.6;
+}
+
+.movies-card__mark-button_marked {
+  background-color: #3DDC84;
+  background-image: url(../../images/checkWite.svg);
+}

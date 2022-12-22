@@ -1,0 +1,39 @@
+.login-button__link {
+  transition: opacity linear 0.3s;
+  cursor: pointer;
+}
+
+.login-button__link:hover {
+  opacity: 0.6;
+}
+
+.login-button__link_active {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  text-decoration: none;
+  background: #3DDC84;
+  font-style: normal;
+  font-family: 'Inter', 'Arial', sans-serif;
+  font-size: 12px;
+  line-height: 16px;
+  font-weight: 500;
+  text-decoration: none;
+  width: 76px;
+  height: 32px;
+  border-radius: 3px;
+  margin-left: 30px;
+}
+
+.login-button__link_active .button {
+  color: #000000;
+  cursor: pointer;
+}
+
+@media screen and (max-width: 450px) {
+  .login-button__link_active {
+    width: 54px;
+    height: 26px;
+    margin-left: 14px;
+  }
+}
